@@ -221,4 +221,15 @@
     align-items: center;
   }
   
-  
+  .section_title,.section_title--center{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+    padding-bottom: 24px;
+  }
+  .section_subtitle,.section_subtitle--center{
+    font-weight: 900;
+    font-size: 64px;
+    padding-bottom: 24px;
+  }
