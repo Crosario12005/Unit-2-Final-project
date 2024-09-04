@@ -300,3 +300,80 @@
   justify-content: space-between;
   max-width: 50%;
 }
+
+#steps .section_wrapper{
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.list_steps{
+  display: flex;
+  flex-direction: column;
+}
+.step{
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 1rem;
+}
+.step_number{
+  color: #ccc;
+  font-weight: 300;
+  font-size: 3.5rem;
+}
+.step_description--wrapper{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 32px;
+}
+.step_title{
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 24px; ;
+}
+.step_para{
+  font-size: 20px;
+  line-height: 36px;
+}
+.step:not(:last-child){
+  margin-bottom: 32px;
+}
+.img_wrapper{
+  width: 50%;
+}
+.values_principles{
+  display: flex;
+}
+.values_header{
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+}
+.values_svg svg{
+  width: 28px;
+  height: 28px;
+display: block;
+}
+.values_svg{
+  padding: 16px;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+.values_svg-green{
+  background-color: #e8c6c6;
+  color: rgba(155, 44, 44,1);
+  
+}
+#values .btn{
+  margin-top: 32px;
+}
+.plans_container{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.plan_card{
+  margin-top: 64px;
+  margin-right: 36px;
+}
