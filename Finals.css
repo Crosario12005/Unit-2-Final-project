@@ -120,13 +120,13 @@
   }
   .nav_link--primary{
     background-color: var(--primary-color);
-    color: rgb(76, 145, 205);
+    color: rgb(78, 145, 205);
     padding: 12px 32px;
     border-radius: 36px;
     margin-left: 24px;
   }
   .btn_top_btnmain_button:hover{
-    color: aqua;
+    color: rgb(89, 0, 255);
     text-decoration: none;
     background-color: var(--btn-hovor-color);
   }
